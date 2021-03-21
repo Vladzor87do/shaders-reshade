@@ -25,14 +25,14 @@
 uniform float BlurAmount <
     ui_type = "slider";
     ui_min = 0.3;
-    ui_max = 1.7;
+    ui_max = 6.0;
     ui_label = "Blur Amount";
 > = 1;
 
 uniform float QualityOfBlur <
     ui_type = "slider";
     ui_min = 0.2;
-    ui_max = 1.8;
+    ui_max = 4.0;
     ui_label = "Quality Of Blur";
 > = 1;
 
